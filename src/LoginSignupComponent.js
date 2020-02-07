@@ -5,8 +5,12 @@ class loginSignupComponent extends Component {
   render() {
     return (
       <div className="loginSignupWrapper">
-        <div className="loginForm"></div>
-        <div className="signupForm"></div>
+        <div className="loginForm">
+          <form></form>
+        </div>
+        <div className="signupForm">
+          <form></form>
+        </div>
       </div>
     );
   }
